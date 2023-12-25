@@ -25,7 +25,7 @@ The user interface (UI) provides the ability to change the current prompt and ex
 To get started with Rag with Memory, follow these steps:
 
 ```bash
-git clone https://github.com/your-username/rag-with-memory.git
+git clone https://github.com/JINO-ROHIT/rag-with-memory.git
 cd rag-with-memory
 streamlit run app.py
 ```
