@@ -29,6 +29,8 @@ git clone https://github.com/your-username/rag-with-memory.git
 cd rag-with-memory
 streamlit run app.py
 ```
+Make sure to add the hf token in the .env file.
+
 
 1. Open the application in your web browser.
 2. Upload a document for RAG processing.
