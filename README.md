@@ -7,6 +7,7 @@
 Rag with Memory is a project that leverages Llama 2 7b chat assistant to perform RAG (Retrieval-Augmented Generation) on uploaded documents. Additionally, it operates in a chat-based setting with short-term memory by summarizing all previous K conversations into a standalone conversation to build upon the memory.
 Inspired from langchain - https://python.langchain.com/docs/use_cases/question_answering/#adding-memory
 
+The database used is from the amazing Vlite repository which builds on numpy - https://github.com/sdan/vlite
 
 The user interface (UI) provides the ability to change the current prompt and experiment with the most important text generation parameters. The little left corner of the UI keeps track of the tokens generated over the session.
 
@@ -35,7 +36,7 @@ streamlit run app.py
 4. Use the UI to experiment with different prompts and text generation parameters.
 
 ## Features
-1. Regular old RAG on the given document
+1. Regular old RAG on the given document using a numpy database(Vlite)
 2. Chat-based setting with short-term memory
 3. UI for changing prompts and experimenting with text generation parameters
 4. Token count tracking in the UI
