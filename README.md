@@ -4,7 +4,9 @@
 
 ## Description
 
-Rag with Memory is a project that leverages Llama 2 7b chat assistant and summarization techniques to perform RAG (Retrieval-Augmented Generation) on uploaded documents. Additionally, it operates in a chat-based setting with short-term memory by summarizing all previous K conversations into a standalone conversation to build upon the memory.
+Rag with Memory is a project that leverages Llama 2 7b chat assistant to perform RAG (Retrieval-Augmented Generation) on uploaded documents. Additionally, it operates in a chat-based setting with short-term memory by summarizing all previous K conversations into a standalone conversation to build upon the memory.
+Inspired from langchain - https://python.langchain.com/docs/use_cases/question_answering/#adding-memory
+
 
 The user interface (UI) provides the ability to change the current prompt and experiment with the most important text generation parameters. The little left corner of the UI keeps track of the tokens generated over the session.
 
