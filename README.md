@@ -1,4 +1,4 @@
-# Rag with Memory
+# Rag with Memory 📖
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
