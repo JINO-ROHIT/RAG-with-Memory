@@ -43,6 +43,7 @@ Make sure to add the hf token in the .env file.
 3. UI for changing prompts and experimenting with text generation parameters
 4. Token count tracking in the UI
 
+![UI Page](./images/ui.png)
 
 ## Contributing
 If you'd like to contribute to Rag with Memory, follow these steps:
